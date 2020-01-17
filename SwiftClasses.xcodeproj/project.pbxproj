@@ -7,6 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		A830AB8123D163B300361499 /* SturctSConceptsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A830AB8023D163B300361499 /* SturctSConceptsViewController.swift */; };
+		A830AB8323D1643000361499 /* StrcutcVSClass.swift in Sources */ = {isa = PBXBuildFile; fileRef = A830AB8223D1643000361499 /* StrcutcVSClass.swift */; };
 		A84D721D23CECDA900AC8756 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = A84D721C23CECDA900AC8756 /* AppDelegate.swift */; };
 		A84D721F23CECDA900AC8756 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = A84D721E23CECDA900AC8756 /* SceneDelegate.swift */; };
 		A84D722123CECDA900AC8756 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A84D722023CECDA900AC8756 /* ViewController.swift */; };
@@ -17,6 +19,8 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		A830AB8023D163B300361499 /* SturctSConceptsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SturctSConceptsViewController.swift; sourceTree = "<group>"; };
+		A830AB8223D1643000361499 /* StrcutcVSClass.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StrcutcVSClass.swift; sourceTree = "<group>"; };
 		A84D721923CECDA900AC8756 /* SwiftClasses.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SwiftClasses.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		A84D721C23CECDA900AC8756 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		A84D721E23CECDA900AC8756 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -61,6 +65,8 @@
 				A84D721C23CECDA900AC8756 /* AppDelegate.swift */,
 				A84D721E23CECDA900AC8756 /* SceneDelegate.swift */,
 				A84D722023CECDA900AC8756 /* ViewController.swift */,
+				A830AB8023D163B300361499 /* SturctSConceptsViewController.swift */,
+				A830AB8223D1643000361499 /* StrcutcVSClass.swift */,
 				A84D723023CED70F00AC8756 /* Person.swift */,
 				A84D722223CECDA900AC8756 /* Main.storyboard */,
 				A84D722523CECDAA00AC8756 /* Assets.xcassets */,
@@ -141,9 +147,11 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				A830AB8123D163B300361499 /* SturctSConceptsViewController.swift in Sources */,
 				A84D722123CECDA900AC8756 /* ViewController.swift in Sources */,
 				A84D721D23CECDA900AC8756 /* AppDelegate.swift in Sources */,
 				A84D723123CED70F00AC8756 /* Person.swift in Sources */,
+				A830AB8323D1643000361499 /* StrcutcVSClass.swift in Sources */,
 				A84D721F23CECDA900AC8756 /* SceneDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

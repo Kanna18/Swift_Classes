@@ -12,6 +12,23 @@ class Person: NSObject {
 
     var firstName : String?
     var secondName : String?
-    var age : Int?
+    var ageOptional : Int?
+    var ageUnwrap : Int?
+        
+    func myCalc(){
+        print("Addition Calcl")
+    }
+    
+//    init(fName:String, sName:String, ageO:Int, ageU:Int) {
+//        self.firstName = fName
+//        self.secondName = sName
+//        self.ageOptional = ageO
+//        self.ageUnwrap = ageU
+//    }
         
 }
+
+
+
+
+

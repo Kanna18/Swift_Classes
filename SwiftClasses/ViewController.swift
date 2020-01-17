@@ -10,6 +10,9 @@ import UIKit
 
 class ViewController: UIViewController {
 
+
+    
+    
     override func viewDidLoad() {
         super.viewDidLoad()
         // Do any additional setup after loading the view.
@@ -35,29 +38,57 @@ class ViewController: UIViewController {
 //        Arrays
 //        Dictionary
         
-        
-//        var myDict : NSMutableDictionary = [1:"Dinesh", 2:"Bharath", 3:"Kumar"]
-//        myDict.setValue(<#T##value: Any?##Any?#>, forKey: <#T##String#>)
-         
-        
-        
-//        NSDictionary,
-//        NSMutableDictionary
-//        Dictionary
-     
-        let p2 = Person.init()
-        p2.firstName = "Dinesh"
-        p2.secondName = "Kumar"
-        
-        _ = 2 * p2.age!
-        
-        
-//        if let myAge = p2.age{
 //
-//            print(myAge * 100)
+////        var myDict : NSMutableDictionary = [1:"Dinesh", 2:"Bharath", 3:"Kumar"]
+////        myDict.setValue(<#T##value: Any?##Any?#>, forKey: <#T##String#>)
+//
+//
+//
+////        NSDictionary,
+////        NSMutableDictionary
+////        Dictionary
+//
+//        let p2 = Person.init()
+//        p2.firstName = "Dinesh"
+//        p2.secondName = "Kumar"
+//
+////        _ = 2 * p2.age!
+//
+//
+////        if let myAge = p2.age{
+////
+////            print(myAge * 100)
+////        }else{
+////            print("Age Not given")
+////        }
+//
+//
+        
+//        var p3 = Person()
+//        p3.firstName = "iOS"
+//        p3.secondName = "Developer"
+//        p3.ageUnwrap = 20
+//        p3.myCalc()
+//
+//        if let a = p3.ageOptional {
+//            let finalAge = a * 10
+//            print(finalAge)
 //        }else{
-//            print("Age Not given")
-//        }
+//            print("Age is not provided")
+//        }fName: <#String#>
+//
+//
+//
+//        let fAge = p3.ageUnwrap * 10
+//
+//        print(fAge)
+        
+//        var p = Person.init()
+//        var p = Person()
+        
+//        let p4 = Person().myCalc()
+        
+
         
         
     }
@@ -73,9 +104,18 @@ class ViewController: UIViewController {
     
     func concate(names:Int...) {
         print(names)
+        
+        
     }
     
 }
 
 
+
+//Arrays
+//Dictionaries
+//Classes
+//Optionals
+//Optional Binding
+//Unwrapping
 
