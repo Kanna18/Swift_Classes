@@ -44,7 +44,12 @@ class SturctSConceptsViewController: UIViewController {
         
 //        let filArr = filTerNumberWithPredicate(closure: greaterThanTen(num:), numbers: [10,20,30,40,50,60])
         print(filArr)
-    
+        
+        
+        var numb = 5
+        
+        
+        
     }
     
     func greaterThanTen(num:Int) -> Bool {
@@ -64,20 +69,23 @@ class SturctSConceptsViewController: UIViewController {
         return fArr
     }
     
-//    func filterNumbers(numbers:[Int]) -> [Int] {
-//        var fArr = [Int]()
-//
-//        for nu in numbers {
-//            if nu > 30{
-//                fArr.append(nu)
-//            }
-//        }
-//
-//        return fArr
-//    }
-    
-    
-    //Extensions, Protocols, closures, enums,  Higher order Functions
 
 }
+
+struct Size {
+    var width = 0.0, height = 0.0
+}
+
+struct Point {
+    var x = 0.0, y = 0.0
+}
+
+struct Rect  {
+    
+    
+    var origin = Point()
+    var size = Size()
+}
+
+
 
