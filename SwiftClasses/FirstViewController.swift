@@ -10,8 +10,8 @@ import UIKit
 
 
 
-class FirstViewController: UIViewController {
-   
+class FirstViewController: UIViewController,SecondViewPRotocols {
+
     
     
     @IBOutlet weak var nameLabel: UILabel!
@@ -25,9 +25,9 @@ class FirstViewController: UIViewController {
 
     @IBAction func buttonCLick(_ sender: Any) {
         
-        let sv = self.storyboard?.instantiateViewController(identifier: "SecondVC") as? SecondViewController
-        sv?.delegate = self as? SecondViewPRotocols
-        self.navigationController?.pushViewController(sv!, animated: true)
+        let sv = self.storyboard?.instantiateViewController(identifier: "SecondVC") as! SecondViewController
+        sv.delegate = self
+        self.navigationController?.pushViewController(sv, animated: true)
     }
     
     

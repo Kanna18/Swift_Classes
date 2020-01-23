@@ -8,10 +8,10 @@
 
 import UIKit
 
-protocol SecondViewPRotocols {
+@objc protocol SecondViewPRotocols {
 
     func sendTheTextFieldString(tfTextt:String)
-    func sendMeErrorResponse()
+    @objc optional func sendMeErrorResponse()
 }
 
 class SecondViewController: UIViewController {
@@ -22,6 +22,7 @@ class SecondViewController: UIViewController {
     
 
     @IBAction func goBackClick(_ sender: Any) {
+        
         delegate?.sendTheTextFieldString(tfTextt: nameTF.text!)
         self.navigationController?.popViewController(animated: true)
         
@@ -29,6 +30,9 @@ class SecondViewController: UIViewController {
     override func viewDidLoad() {
         super.viewDidLoad()
 
+        var hi = 100;
+        
+        
         
     }
     

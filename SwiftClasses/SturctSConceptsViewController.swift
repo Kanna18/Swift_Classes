@@ -45,6 +45,7 @@ class SturctSConceptsViewController: UIViewController {
 //        let filArr = filTerNumberWithPredicate(closure: greaterThanTen(num:), numbers: [10,20,30,40,50,60])
         print(filArr)
         
+
         
         var numb = 5
         
