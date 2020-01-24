@@ -21,6 +21,8 @@
 		A85CF8AC23D810230077E063 /* FirstViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A85CF8AB23D810230077E063 /* FirstViewController.swift */; };
 		A85CF8AE23D810290077E063 /* SecondViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A85CF8AD23D810290077E063 /* SecondViewController.swift */; };
 		A8822DDE23D95C7C00217CAC /* ExtenstionsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A8822DDD23D95C7C00217CAC /* ExtenstionsViewController.swift */; };
+		A8B73B3C23DAAF1E000569A2 /* GenericsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A8B73B3B23DAAF1E000569A2 /* GenericsViewController.swift */; };
+		A8B73B3E23DAB0B4000569A2 /* JsonData.swift in Sources */ = {isa = PBXBuildFile; fileRef = A8B73B3D23DAB0B4000569A2 /* JsonData.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -40,6 +42,8 @@
 		A85CF8AB23D810230077E063 /* FirstViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FirstViewController.swift; sourceTree = "<group>"; };
 		A85CF8AD23D810290077E063 /* SecondViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SecondViewController.swift; sourceTree = "<group>"; };
 		A8822DDD23D95C7C00217CAC /* ExtenstionsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ExtenstionsViewController.swift; sourceTree = "<group>"; };
+		A8B73B3B23DAAF1E000569A2 /* GenericsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GenericsViewController.swift; sourceTree = "<group>"; };
+		A8B73B3D23DAB0B4000569A2 /* JsonData.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = JsonData.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -82,6 +86,8 @@
 				A85CF8AB23D810230077E063 /* FirstViewController.swift */,
 				A85CF8AD23D810290077E063 /* SecondViewController.swift */,
 				A8822DDD23D95C7C00217CAC /* ExtenstionsViewController.swift */,
+				A8B73B3B23DAAF1E000569A2 /* GenericsViewController.swift */,
+				A8B73B3D23DAB0B4000569A2 /* JsonData.swift */,
 				A84D723023CED70F00AC8756 /* Person.swift */,
 				A84D722223CECDA900AC8756 /* Main.storyboard */,
 				A84D722523CECDAA00AC8756 /* Assets.xcassets */,
@@ -168,10 +174,12 @@
 				A84D721D23CECDA900AC8756 /* AppDelegate.swift in Sources */,
 				A85CF8A823D809830077E063 /* ExtenxtionsViewController.swift in Sources */,
 				A85CF8AA23D809B40077E063 /* ProtocolsViewController.swift in Sources */,
+				A8B73B3E23DAB0B4000569A2 /* JsonData.swift in Sources */,
 				A84D723123CED70F00AC8756 /* Person.swift in Sources */,
 				A830AB8323D1643000361499 /* StrcutcVSClass.swift in Sources */,
 				A85CF8AE23D810290077E063 /* SecondViewController.swift in Sources */,
 				A84D721F23CECDA900AC8756 /* SceneDelegate.swift in Sources */,
+				A8B73B3C23DAAF1E000569A2 /* GenericsViewController.swift in Sources */,
 				A8822DDE23D95C7C00217CAC /* ExtenstionsViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

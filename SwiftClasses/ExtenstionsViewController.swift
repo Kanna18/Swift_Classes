@@ -51,49 +51,67 @@ class ExtenstionsViewController: UIViewController {
         
         let ageTEN = jsonArray.filter({ $0["age"] as! Int == 20 })
         print(ageTEN)
+        
+        var myName = "Disnssesh".countOfS
+        print(myName)
+        
+        
+        var numb = 45.printTable()
     }
     
 }
 
-//extension String{
-//    let countOfS : Int {
-//        let cou = 0;
-//        for char in 0..<self.count {
-//            let cha = self.
-//        }
-//
-//        return cou
-//    }
-//
-//
-//}
+extension String{
+    var countOfS : Int {
+        var cou = 0;
+        for char in self {
+            if(char == "s"){
+                cou += 1
+            }
+        }
 
-//extension Double {
-//    let mts: Double {
-//        return self * 1_000.0
-//    }
-//
-//    
-//}
-//
-//
-//extension Int{
-//    
-//    let multiPly : Int{
-//        return self * self
-//    }
-//    
-//    
-////    func table(task: () -> Void) {
-////        for _ in 0..<10 {
-////
-////        }
-////    }
-////
-////    func printTable(task:()->Int) {
-////        for i in 1...10 {
-////            print("\(self) * \(i) = \(self * i) ")
-////            return
-////        }
-////    }
-//}
+        return cou
+    }
+
+
+}
+
+extension Double {
+    var mts: Double {
+        return self * 1_000.0
+    }
+
+    
+}
+
+
+extension Int{
+    
+    var multiPly : Int {
+        return self * self
+    }
+    
+    
+    func table(task: () -> Void) {
+        for _ in 0..<10 {
+
+        }
+    }
+
+    func printTable() -> String {
+        for i in 1...10 {
+            print("\(self) * \(i) = \(self * i) ")
+        }
+        
+        return "hi"
+    }
+    func multiples() -> [Int] {
+           
+           return []
+       }
+    
+}
+
+extension Person{
+    
+}

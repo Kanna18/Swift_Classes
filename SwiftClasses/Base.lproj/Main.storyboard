@@ -77,10 +77,10 @@
             </objects>
             <point key="canvasLocation" x="1684.057971014493" y="137.94642857142856"/>
         </scene>
-        <!--Extenstions View Controller-->
+        <!--Generics View Controller-->
         <scene sceneID="xvm-iS-j4o">
             <objects>
-                <viewController id="8Vy-ZZ-Br0" customClass="ExtenstionsViewController" customModule="SwiftClasses" customModuleProvider="target" sceneMemberID="viewController">
+                <viewController id="8Vy-ZZ-Br0" customClass="GenericsViewController" customModule="SwiftClasses" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="B7O-Le-IDf">
                         <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
